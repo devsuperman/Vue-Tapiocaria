@@ -23,17 +23,17 @@
               @click="$router.push({name: 'EditarTapioca', params:{id: tapioca.id}})"
             >
               <v-list-tile-avatar>
-                <v-icon>home</v-icon>
+                <v-icon>favorite</v-icon>
               </v-list-tile-avatar>
 
               <v-list-tile-content>
                 
                 <v-list-tile-title >
-                  {{tapioca.recheio}}
+                  Tapioca de {{tapioca.recheio}}
                 </v-list-tile-title>
                 
                 <v-list-tile-sub-title>
-                     {{tapioca.preco}}
+                     R$ {{tapioca.preco}}
                 </v-list-tile-sub-title>
 
               </v-list-tile-content>
